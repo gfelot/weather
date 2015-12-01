@@ -12,6 +12,7 @@
 		AD335B0E1C0D143E001AD82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD335B0C1C0D143E001AD82B /* Main.storyboard */; };
 		AD335B101C0D143E001AD82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD335B0F1C0D143E001AD82B /* Assets.xcassets */; };
 		AD335B131C0D143E001AD82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD335B111C0D143E001AD82B /* LaunchScreen.storyboard */; };
+		ADB51B001C0D963C0063CD78 /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADB51AFF1C0D963C0063CD78 /* background_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AD335B0F1C0D143E001AD82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD335B121C0D143E001AD82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD335B141C0D143E001AD82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB51AFF1C0D963C0063CD78 /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_1.jpg; path = "../../../../Downloads/assets1/Custom Design 1/backgrounds/background_1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AD335B071C0D143E001AD82B /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				AD335B1A1C0D14B2001AD82B /* Pictures */,
 				AD335B081C0D143E001AD82B /* AppDelegate.swift */,
 				AD335B0A1C0D143E001AD82B /* ViewController.swift */,
 				AD335B0C1C0D143E001AD82B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				AD335B141C0D143E001AD82B /* Info.plist */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		AD335B1A1C0D14B2001AD82B /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				ADB51AFF1C0D963C0063CD78 /* background_1.jpg */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				AD335B131C0D143E001AD82B /* LaunchScreen.storyboard in Resources */,
 				AD335B101C0D143E001AD82B /* Assets.xcassets in Resources */,
 				AD335B0E1C0D143E001AD82B /* Main.storyboard in Resources */,
+				ADB51B001C0D963C0063CD78 /* background_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				AD335B191C0D143E001AD82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
